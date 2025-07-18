@@ -19,23 +19,26 @@ export default function TabLayout() {
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme ?? "light"].tabIconSelected,
         headerShown: false,
-        tabBarButton:HapticTab,
-        tabBarBackground: TabBarBackground,
+        tabBarButton: HapticTab,
 
         tabBarStyle: {
           backgroundColor: "#cfe4ad",
           width: "60%",
-          alignSelf: "center",
+
           borderRadius: 48,
-          marginBottom: "7%",
+          overflow: "hidden",
+          position: "absolute",
+          marginHorizontal: "20%",
+          marginBottom:"3%",
+         
         },
         tabBarIconStyle: {
           alignSelf: "center",
           margin: 8,
         },
-        tabBarLabelStyle:{
-          fontSize:10
-        }
+        tabBarLabelStyle: {
+          fontSize: 11,
+        },
       }}
     >
       <Tabs.Screen
@@ -64,7 +67,7 @@ export default function TabLayout() {
 
           // },
           tabBarIcon: ({ color }) => (
-            <Octicons name="stopwatch" size={29} color={color} />
+            <Octicons name="stopwatch" size={27} color={color} />
           ),
         }}
       />
