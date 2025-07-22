@@ -8,6 +8,11 @@ import Shoulder from "@/assets/images/shoulder.png";
 import Triceps from "@/assets/images/triceps.png";
 import Legs from "@/assets/images/legs.png";
 import LowerLegs from "@/assets/images/lower legs.png";
+import StopWatch from "@/assets/images/stopwatch.png";
+import WomenAbs from "@/assets/images/women abbs.png";
+import Apple from "@/assets/images/apple.png";
+import DumbBell from "@/assets/images/dumbbel.png";
+import Yoga from "@/assets/images/yoga.png";
 
 
 
@@ -23,5 +28,10 @@ export const images ={
     Triceps,
     Legs,
     LowerLegs,
+    StopWatch,
+    WomenAbs,
+    Apple,
+    DumbBell,
+    Yoga,
     
 };
