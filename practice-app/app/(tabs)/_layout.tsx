@@ -17,18 +17,16 @@ export default function TabLayout() {
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme ?? "light"].tabIconSelected,
         headerShown: false,
-       
 
         tabBarStyle: {
-          backgroundColor: "#cfe4ad",
+          backgroundColor: "#b7e3f0",
           width: "60%",
 
           borderRadius: 48,
           overflow: "hidden",
           position: "absolute",
           marginHorizontal: "20%",
-          marginBottom:"3%",
-         
+          marginBottom: "3%",
         },
         tabBarIconStyle: {
           alignSelf: "center",

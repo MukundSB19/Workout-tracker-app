@@ -5,7 +5,7 @@ import { CategoryImage } from '@/types/ui'
 const HorizontalCategory = ({categoryList}:{categoryList:CategoryImage[]}) => {
   return (
     <View>
-      <Text className='pl-6 pt-3 text-2xl font-medium tracking-tighter'>
+      <Text className="pl-6 pt-3 text-2xl font-medium tracking-tighter">
         Select exercise type
       </Text>
       <FlatList
@@ -16,7 +16,7 @@ const HorizontalCategory = ({categoryList}:{categoryList:CategoryImage[]}) => {
         renderItem={({ item }) => (
           <TouchableOpacity className="items-center mr-8 ml-4 mt-4 ">
             <Image
-              className="w-[52] h-[81] bg-white rounded-full border"
+              className="w-[52] h-[81] bg-[white]  rounded-full border"
               resizeMode="contain"
               source={item.imageUrl}
             />

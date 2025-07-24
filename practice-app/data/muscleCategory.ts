@@ -23,8 +23,8 @@ export const categoryTwo: MuscleCategoryImage[] = [
     imageUrl: images.Legs,
   },
   {
-    title: "Lower legs",
-    slug: "lower legs",
+    title: "Abs",
+    slug: "abs",
     imageUrl: images.LowerLegs,
   },
   {

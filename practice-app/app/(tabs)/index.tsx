@@ -1,5 +1,6 @@
 import { images } from "@/constants";
 import "@/global.css";
+
 import { Button, Image, TouchableOpacity } from "react-native";
 import { ImageBackground, ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -13,7 +14,7 @@ import { categoryTwo } from "@/data/muscleCategory";
 export default function HomeScreen() {
   return (
     <SafeAreaView className="bg-bgColor flex-1 ">
-      <ScrollView className="">
+      <ScrollView className="" showsVerticalScrollIndicator={false}>
         <View className="">
           <View className="flex flex-row items-center justify-between m-4">
             <View className=" flex flex-row items-center gap-4">
@@ -47,5 +48,8 @@ export default function HomeScreen() {
         </View>
       </ScrollView>
     </SafeAreaView>
+
+  
+   
   );
 }
