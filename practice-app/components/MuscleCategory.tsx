@@ -8,6 +8,7 @@ const [activeMuscle,setActiveMuscle] = useState<string | null>(null);
 
 
   return (
+    
     <View className="bg-white m-4 rounded-3xl  mt-9">
       <Text className="pl-5 pt-4 text-2xl font-bold tracking-tighter">
         Muscles workload
@@ -19,6 +20,7 @@ const [activeMuscle,setActiveMuscle] = useState<string | null>(null);
         <FlatList
           data={muscleList}
           numColumns={2}
+         
           keyExtractor={(item) => item.slug}
           renderItem={({ item }) => {
             const isActive = activeMuscle === item.slug;
