@@ -85,6 +85,7 @@ const explore = () => {
                   lineCap="square"
                 >
                   {(fill: number) => (
+
                     <Text className="text-base mt-[-20]">
                       {Math.round(fill)}%
                     </Text>

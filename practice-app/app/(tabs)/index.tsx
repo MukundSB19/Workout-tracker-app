@@ -44,7 +44,6 @@ export default function HomeScreen() {
             </TouchableOpacity>
           </View>
 
-         
             <View>
               <HorizontalCategory categoryList={category} />
               <MuscleCategory muscleList={categoryTwo} />
