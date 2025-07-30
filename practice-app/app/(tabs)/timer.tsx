@@ -86,7 +86,7 @@ const timer = () => {
                 className="absolute overflow-hidden left-20
                 top-14 text-2xl"
               >
-                13,232
+                11,314
               </Text>
               <View className="h-[2px] w-[15%] bg-gray-700  my-1 rounded-full absolute overflow-hidden top-24 left-20" />
               <View className="absolute overflow-hidden left-16 flex flex-row m-2 items-center mt-32 ">
@@ -97,7 +97,7 @@ const timer = () => {
                 className="absolute overflow-hidden left-20
                 top-40 text-2xl"
               >
-                115
+                125
               </Text>
               <View className="h-[2px] w-[15%] bg-gray-700  my-1 rounded-full absolute overflow-hidden top-52 left-20" />
               <View className="absolute overflow-hidden left-16 flex flex-row m-2 items-center bottom-20 mt-3 ">
@@ -108,7 +108,7 @@ const timer = () => {
                 className="absolute overflow-hidden left-20
                 bottom-10 text-2xl pt-7"
               >
-                00:39
+                00:54
               </Text>
             </View>
           </View>
