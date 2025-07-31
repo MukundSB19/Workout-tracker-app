@@ -1,13 +1,11 @@
-import { View, Text, SafeAreaView, Image, ScrollView } from 'react-native'
+import { View, Text, SafeAreaView, Image, ScrollView } from "react-native";
 import { LineChart } from "react-native-chart-kit";
 import { Dimensions } from "react-native";
 import AntDesign from "@expo/vector-icons/AntDesign";
 import Entypo from "@expo/vector-icons/Entypo";
 import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
-import { images } from '@/constants';
+import { images } from "@/constants";
 import Ionicons from "@expo/vector-icons/Ionicons";
-
-
 
 const timer = () => {
   const screenWidth = Dimensions.get("window").width;
@@ -86,7 +84,7 @@ const timer = () => {
                 className="absolute overflow-hidden left-20
                 top-14 text-2xl"
               >
-                11,314
+                10,114
               </Text>
               <View className="h-[2px] w-[15%] bg-gray-700  my-1 rounded-full absolute overflow-hidden top-24 left-20" />
               <View className="absolute overflow-hidden left-16 flex flex-row m-2 items-center mt-32 ">
@@ -97,7 +95,7 @@ const timer = () => {
                 className="absolute overflow-hidden left-20
                 top-40 text-2xl"
               >
-                125
+                95
               </Text>
               <View className="h-[2px] w-[15%] bg-gray-700  my-1 rounded-full absolute overflow-hidden top-52 left-20" />
               <View className="absolute overflow-hidden left-16 flex flex-row m-2 items-center bottom-20 mt-3 ">
@@ -116,6 +114,6 @@ const timer = () => {
       </ScrollView>
     </SafeAreaView>
   );
-}
+};
 
-export default timer
+export default timer;

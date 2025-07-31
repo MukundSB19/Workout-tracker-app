@@ -6,9 +6,8 @@ import AntDesign from "@expo/vector-icons/AntDesign";
 import Feather from "@expo/vector-icons/Feather";
 import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
-import { AnimatedCircularProgress } from 'react-native-circular-progress';
+import { AnimatedCircularProgress } from "react-native-circular-progress";
 import Entypo from "@expo/vector-icons/Entypo";
-
 
 const explore = () => {
   return (
@@ -59,7 +58,6 @@ const explore = () => {
             </TouchableOpacity>
             <Text className="color-slate-600">Points Earned</Text>
           </View>
-         
 
           <View className="bg-white m-4 rounded-3xl">
             <View className="flex flex-row items-center mt-3 ml-2">
@@ -85,7 +83,6 @@ const explore = () => {
                   lineCap="square"
                 >
                   {(fill: number) => (
-
                     <Text className="text-base mt-[-20]">
                       {Math.round(fill)}%
                     </Text>
@@ -93,7 +90,7 @@ const explore = () => {
                 </AnimatedCircularProgress>
               </View>
             </View>
-           
+
             <View className="flex flex-row items-center mt-3 ml-2">
               <Entypo name="dot-single" size={34} color="#ea5752" />
               <Text className="text-xl font-medium tracking-tighter">
